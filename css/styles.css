@@ -1,0 +1,219 @@
+:root {
+    --primary-header-color: #212121;
+    --primary-text-color: #757575;
+    --primary-link-color: #2196F3;
+}
+   
+body {
+    font-family: Roboto, Raleway, sans-serif;
+}
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+/* identical to box height */
+    letter-spacing: 0.03em;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.ending {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+/* or 171% */
+    letter-spacing: 0.03em;
+}
+
+/* ---------HEADER----------- */
+.header-logo {
+    color: var(--primary-link-color);
+}
+.header-link {
+    color: var(--primary-header-color);
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--primary-link-color);
+}
+
+.header-mail {
+    color: var(--primary-text-color);
+}
+.header-tel {
+    color: var(--primary-text-color);
+}
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
+    color: var(--primary-link-color);
+}
+
+
+
+
+/* ---------MAIN----------- */
+
+.main {
+    background-color: #2F303A;
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+/* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+}
+.main-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+/* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.main-btn:hover,
+.main-btn:focus{
+    background-color: #2196F3;
+}
+.title-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-header-color);
+}
+.main-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+/* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+/* ---------ABOUT----------- */
+
+.title-about {
+    color: var(--primary-header-color);
+}
+
+/* ---------TEAM----------- */
+
+.title-team {
+    color: var(--primary-header-color);
+}
+.team-name {
+    ont-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-header-color);
+}
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/* ----------FOOTER---------- */
+
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: var(--primary-link-color);
+}
+.address-link {
+    color: #FFFFFF;
+}
+.contacts-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------PORTFOLIO---------- */
+/* ----------HEADER---------- */
+.portfolio-logo {
+    color: var(--primary-link-color);
+}
+/* ----------Main---------- */
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+/* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+/* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--primary-header-color);
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+/* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
