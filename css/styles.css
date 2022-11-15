@@ -135,7 +135,7 @@ body {
     color: var(--primary-header-color);
 }
 .team-name {
-    ont-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 /* identical to box height */
